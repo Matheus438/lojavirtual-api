@@ -1,7 +1,10 @@
 # Projeto loja virtual
 
 Nosso projeto é uma loja de componetes de computadores, lá voce podera comprar e ver a data estimada de entrega. Terá area de login do usuario, login do forncedor, login da tranportadora e cadastro de produtos.
-*Pagina de [cadastro de clientes](cliente.md)
+* Pagina de [cadastro de clientes](cliente.md)
+* Pagina de [cadastro de produtos](produtos.md)
+* Pagina de [cadastro de transportadora](transporte.md)
+* Pagina de [cadastro de fornecedores](fornecedor.md)
 
 ## Requisitos
 
