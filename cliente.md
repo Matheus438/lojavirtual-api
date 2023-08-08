@@ -8,4 +8,5 @@ Nessa pagina voce ira inserir nos campos as informações requisitadas por cada 
 * CPF
 * Numero de telefone
 * Senha de sua escolha
+
 Quando terminar de prencher os campos, aperte em cadastrar e seus dados serão armazenados em nosso servidor e você podera aproveitar o nosso vasto catalogo de componentes de computadores.
