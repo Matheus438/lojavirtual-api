@@ -1,5 +1,5 @@
 # Projeto loja virtual
-![logo_transparent2](https://github.com/Matheus438/lojavirtual-api/assets/140071251/dd37ffd9-d4a0-44f5-a926-39278130717b)
+![logo_transparent](https://github.com/Matheus438/lojavirtual-api/assets/140071251/6bfeaa69-8ff0-4e0e-9e24-94e6b80cb894)
 
 Nosso projeto é uma loja de componetes de computadores, lá voce podera comprar e ver a data estimada de entrega. Terá area de login do usuario, login do forncedor, login da tranportadora e cadastro de produtos.
 * Pagina de [cadastro de clientes](cliente.md)
