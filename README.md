@@ -36,8 +36,7 @@ copy env.example .env
 code.
 ```
 ## insominia
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=exercicio%20api&uri=https%3A%2F%2Fraw.githubusercontent.com%2FMatheus438%2FExercicio-api%2Fmain%2FInsomnia.json)
-
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Lojavirtual&uri=https%3A%2F%2Fraw.githubusercontent.com%2FMatheus438%2Flojavirtual-api%2Fmain%2FInsomnia%3Ftoken%3DGHSAT0AAAAAACGBYCNWOX3VW2WLEZOTLQ22ZGSEUUQ)
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE), o que significa que você pode utilizá-lo livremente para fins educacionais, comerciais ou pessoais.
