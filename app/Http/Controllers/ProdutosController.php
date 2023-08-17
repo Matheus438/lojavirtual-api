@@ -11,11 +11,11 @@ class ProdutosController extends Controller
     public function store(ProdutoRequest $request)
     {
         $produto = ModelProduto::create([
-            'NomeProduto' => $request->NomeDoProduto,
-            'SKU' => $request->SKU,
-            'Preço de venda' => $request->PreçoDeVenda,
-            'Tipo' => $request->Tipo,
-            'Linha do Produto' => $request->LinhaDoProduto
+            'nome' => $request->nome,
+            'codigo' => $request->codigo,
+            'preço' => $request->preço,
+            'tipo' => $request->tipo,
+            'linha' => $request->linha
         ]);
 
         return response()->json([
