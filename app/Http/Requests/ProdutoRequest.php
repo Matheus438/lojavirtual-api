@@ -2,7 +2,9 @@
 
 namespace App\Http\Requests;
 
+use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Http\Exceptions\HttpResponseException;
 
 class ProdutoRequest extends FormRequest
 {
@@ -29,5 +31,36 @@ class ProdutoRequest extends FormRequest
           'linha' => 'required|max:50|min:5'
         ];
     }
+
+    public function failedValidation(Validator $validator){
+        throw new HttpResponseException(response()->json([
+            'success' => false,
+            'error' => $validator->errors()
+        ]));
+    }
+    public function messages()
+    {
+        return [
+            'name.required' => 'O campo nome é obrigatorio',
+            'nome.max' => 'o campo nome deve conter no maximo 80 caracteres',
+            'nome.min' => 'o campo nome deve conter no minimo 5 caracteres',
+            'codigo.required' => 'codigo obrigatorio',
+            'codigo.max' => 'codigo deve conter no maximo 30 caracteres',
+            'codigo.min' => 'codigo deve conter no minimo 30 caracteres',
+            'codigo.unique' => 'codigo já cadastrado no sistema',
+            'preco.required' => 'preço obrigatorio',
+            'preco.max' => 'preço deve conter no maximo 15 caracteres',
+            'preco.min' => 'preço deve conter no minimo 10 caracteres',
+            'tipo.required' => 'tipo de produto obrigatorio',
+            'tipo.tipo' => ' tipo de produto invalido',
+            'linha.required' => 'O campo linha é obrigatorio',
+            'linha.max' => 'O campo linha deve conter no maximo 30 caracteres',
+            'linha.min' => 'o campo linha deve conter no minimo 5 caracteres',
+            
+
+        ];
+        
+    }
+
 }
 
