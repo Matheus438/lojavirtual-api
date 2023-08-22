@@ -23,5 +23,9 @@ class ProdutosController extends Controller
             "message" => "Produto cadastrado",
             "data" => $produto
         ], 200);
+   
     }
+    public function pesquisaPorId($id){
+        return ModelProduto::find($id);
+   }
 }

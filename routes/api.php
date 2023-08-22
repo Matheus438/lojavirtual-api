@@ -5,3 +5,5 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 Route::post('store', [ProdutosController::class, 'store']);
+
+Route::get('/find/{id', [ProdutosController::class, 'pesquisarPorId']);
