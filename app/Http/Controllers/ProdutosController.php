@@ -13,7 +13,7 @@ class ProdutosController extends Controller
         $produto = ModelProduto::create([
             'nome' => $request->nome,
             'codigo' => $request->codigo,
-            'preco' => $request->preço,
+            'preco' => $request->preco,
             'tipo' => $request->tipo,
             'linha' => $request->linha
         ]);
