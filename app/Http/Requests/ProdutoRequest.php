@@ -25,10 +25,10 @@ class ProdutoRequest extends FormRequest
     {
         return [
           'nome' => 'required|max:80|min:3',
-          'codigo' => 'required|max:30|min:10|unique:usuarios,Codigo(SKU)',
-          'preço' => 'required|max:10|min:5',
+          'codigo' => 'required|max:30|min:10|unique:model_produtos,id',
+          'preco' => 'required|max:10|min:5',
           'tipo' => 'required|max:50|min:3',
-          'linha' => 'required|max:50|min:5'
+          'linha' => 'required|max:50|min:2'
         ];
     }
 

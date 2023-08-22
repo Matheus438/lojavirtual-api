@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('nome', 80)->nullable(false);
             $table->string('codigo', 30)->unique()->nullable(false);
-            $table->decimal('preço', 10,2)->nullable(false);
+            $table->decimal('preco', 10,2)->nullable(false);
             $table->string('tipo', 50)->unique()->nullable(false);
             $table->string('linha', 50)->nullable(true);
             $table->timestamps();
