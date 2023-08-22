@@ -25,7 +25,7 @@ class ProdutosController extends Controller
         ], 200);
    
     }//teste metodo find
-    public function pesquisaPorId($id){
+    public function pesquisarPorId($id){
         return ModelProduto::find($id);
    }
 }
